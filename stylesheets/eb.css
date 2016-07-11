@@ -1,0 +1,118 @@
+#eBackgrounds {
+	margin-top: 17px;
+    font-size: 35px;
+}
+
+#desc {
+	font-size: 25px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial, Helvetica;
+}
+
+#leftside {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+#rightside {
+    float: right;
+    width: 50%;
+    text-align: center;
+    position:relative;    
+}
+
+p {
+	position: relative;
+}
+
+.divider{
+	margin: auto;
+    padding: 0px;
+    width: 20px;
+    float:left;
+    position:relative;
+}
+
+.divider2 {
+	position: absolute;
+	right: 0px;
+	top: 20px;
+	height: 350px;
+	width: 3px;
+	background-color: gray;
+}
+
+.btn, .btn:visited, .btn:active {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 12px 25px;
+    transition: background 0.5s ease;
+    -webkit-transition: background 0.5s ease;
+}
+
+    .btn:hover {
+        color: #fff;
+        text-decoration: none;
+
+    }
+
+    .btnblue {
+      background: #5191cd;
+	  border-radius: 20px;
+	  border-color: $92c0e0;
+	  border: 1px solid #ababab;
+	  font-size: 16px;
+	  line-height: 16px;
+	  padding: 12px 25px;
+	  font-size: 14px;
+	  color: white;
+	  width: 300px;
+	  cursor:pointer;
+    }
+
+    .btn.blue:hover {
+        background: #97bde1;
+    }
+
+
+/* tell the container's children to float left: */
+.float-my-children > * {
+    float:left;
+    margin-right:25px;
+}
+
+.float-my-children {
+	width: 100%;
+	background-color: rgb(0, 82, 149);
+    color: rgb(81, 145, 205); 
+    font-weight: bold;
+}
+
+/* this is called a clearfix. it makes sure that the container's children floats are cleared, without using extra markup */
+
+.clearfix {
+    *zoom:1 /* for IE */
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* end clearfix*/
